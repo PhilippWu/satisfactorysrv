@@ -20,7 +20,5 @@ services:
         restart: unless-stopped
         deploy:
           resources:
-            limits:
-              memory: 6G
             reservations:
               memory: 4G
